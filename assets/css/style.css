@@ -632,12 +632,12 @@ fsdj opij
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: #999999;
+  /* color: #fbf9f9; */
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 #portfolio #portfolio-flters li:hover, #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #f50707;
 }
 #portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -653,17 +653,18 @@ fsdj opij
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(15, 14, 14, 0.9);
   padding: 15px;
+  color: white;
 }
 #portfolio .portfolio-item .portfolio-info h4 {
   font-size: 18px;
-  color: #666;
+  color:white;
   font-weight: 600;
   margin-bottom: 10px;
 }
 #portfolio .portfolio-item .portfolio-info p {
-  color: #999;
+  color: white;
   font-size: 14px;
   margin: 0;
   padding: 0;
@@ -673,7 +674,8 @@ fsdj opij
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #b8a07e;
+  /* color: #b8a07e; */
+  color: white;
 }
 #portfolio .portfolio-item .portfolio-info .preview-link:hover, #portfolio .portfolio-item .portfolio-info .details-link:hover {
   color: #cab89f;
